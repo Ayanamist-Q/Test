@@ -126,7 +126,7 @@ public class SSMS {
 
         System.out.println("请输入最高成绩:");
         double maxScore = getValidScore(scanner);
-        2
+
         // 确保最低分不高于最高分
         if (minScore > maxScore) {
             double temp = minScore;
